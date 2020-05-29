@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatRo</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Chat cu camera web chat in direct - RomaniaChat - ShowChat - ChatRo">
+    <meta name="keywords" content="RomaniaChat, chat cu camera web, Chat, IRC, Webchat, WebIRC, ChatRo">
+    <meta name="author" content="ShowChat">
+    <meta name="source" content="https://www.chatro.tk">
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script type="text/javascript" src="./showchat.js" prefetch="true"></script>
+</head>
+<body>
+
+    <div id="chat">
+        <noscript>TREBUIE să aveți JavaScript activat pentru a utiliza această pagină. În caz contrar, nu va apărea nimic de valoare.</noscript>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('load', () => {
+            let embed = document.createElement('iframe');
+            embed.setAttribute('id', 'chat-iframe');
+            embed.setAttribute('frameborder', 0);
+            embed.setAttribute('src', build_embed_src());
+            document.getElementById('chat').appendChild(embed);
+        });
+    </script>
+</body>
+</html>
