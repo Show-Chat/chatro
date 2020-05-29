@@ -10,10 +10,10 @@ function build_embed_src() {
     const base_url = 'https://kiwiirc.com/nextclient/';
 	const plugins = 'conference';
 	const theme = 'osprey';
-    const server_url = 'irc3.showchat.tk';
+    const server_url = 'irc.romaniachat.eu';
 	const server_port = '6667';
-	const chan = '#ShowChat';
-    const nick = 'WebChat??';
+	const chan = '#Romania,#RadioClick';
+    const nick = 'ShowChat??';
 	
     // Get page URL information
     let url = new URL(window.location);
