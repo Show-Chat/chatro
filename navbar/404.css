@@ -1,0 +1,78 @@
+/* www.ShowChat.tk
+ *
+ * Navbar styleshet
+ */
+ 
+     .kiwi-wrap {
+        position: relative;
+        top: 50px;
+        height: calc(100% - 50px);
+    }
+    @media only screen and (max-width: 769px) {
+        .nav {
+            display: none;
+        }
+    }
+    #navbar {
+        position: absolute;
+        top: 0;
+        width: 99%;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        border-width: 0;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        height: 50px;
+        background: #3071a9;
+    }
+    #navbar .logo {
+        height: 50px;
+        position: relative;
+        display: block;
+        width: 150px;
+        float: left;
+        margin-left: 10px;
+    }
+    #navbar .nav ul {
+        display: block;
+        float: left;
+        list-style: outside none none;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: rgb(255, 255, 255);
+        line-height: 1.42857;
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+    }
+    #navbar .nav li {
+        display: block;
+        float: left;
+        position: relative;
+    }
+    #navbar .nav li a {
+        text-decoration: none;
+        color: #FFF;
+        padding: 0.2em 0.5em;
+        font-size: 1em;
+        margin: 11px 7px;
+        display: inline-block;
+        background: #428BCA none repeat scroll 0;
+        font-weight: normal;
+        line-height: 1.42857;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        -moz-user-select: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    #navbar .nav li a i {
+        padding-right: 0.5em;
+    }
+    #navbar .nav li a:hover {
+        background-color: #3071a9;
+        border-color: #428BCA;
+    }
