@@ -10,7 +10,7 @@ function build_embed_src() {
     const base_url = 'https://kiwiirc.com/nextclient/';
 	const plugins = 'conference';
 	const theme = 'osprey';
-    const server_url = 'irc.romaniachat.eu';
+    const server_url = 'irc.radioclick.ro';
 	const server_port = '6667';
 	const chan = '#Romania,#RadioClick';
     const nick = 'ShowChat??';
