@@ -27,7 +27,7 @@ function build_embed_src() {
         src += '&theme=' + theme;
     } 
 	if (server_url) {
-        src += '#irc://' + server_url;
+        src += '#ircs://' + server_url;
     }
 	if (server_port) {
         src += ':' + server_port;
